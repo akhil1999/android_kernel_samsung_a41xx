@@ -1,7 +1,7 @@
 #!/bin/bash
 rm -rf out/
-export CROSS_COMPILE=$(pwd)/toolchain/gcc/linux-x86/aarch64/aarch64-linux-android-4.9/bin/aarch64-linux-android-
-export CC=$(pwd)/toolchain/clang/proton-clang-master/bin/clang
+export CROSS_COMPILE=$(pwd)/../toolchain/gcc/linux-x86/aarch64/aarch64-linux-android-4.9/bin/aarch64-linux-android-
+export CC=$(pwd)/../toolchain/clang/proton-clang-master/bin/clang
 export CLANG_TRIPLE=aarch64-linux-gnu-
 export ARCH=arm64
 export ANDROID_MAJOR_VERSION=r
