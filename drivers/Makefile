@@ -199,7 +199,7 @@ obj-$(CONFIG_SENSORS)		+= sensors/
 obj-$(CONFIG_SPU_VERIFY) += spu_verify/
 
 # OLOG
-obj-y				+= kperfmon/
+#obj-y				+= kperfmon/
 obj-y += regulator/pmic_class/ # ADDED BY LEGO AUTOMATICALLY: DO NOT SUBMIT
 obj-y += security/samsung/icdrv/ # ADDED BY LEGO AUTOMATICALLY: DO NOT SUBMIT
 obj-y += usb/typec/slsi/common/ # ADDED BY LEGO AUTOMATICALLY: DO NOT SUBMIT
